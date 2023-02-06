@@ -1,0 +1,7 @@
+{
+  "buildCommand": "strapi build",
+  "installCommand": "yarn",
+  "outputDirectory": ".",
+  "public": true,
+  "regions": ["iad1"]
+}
