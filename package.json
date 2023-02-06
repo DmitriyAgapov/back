@@ -4,14 +4,14 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop --listen $PORT",
+    "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
     "vercel": "vercel env pull .env",
     "vercel:link": "vercel link",
     "vercel:env": "vercel env --prod",
-    "vercel:dev": "vercel dev --listen $PORT",
+    "vercel:dev": "vercel dev",
     "vercel:prod": "vercel --prod"
   },
   "devDependencies": {},
@@ -39,7 +39,7 @@
     "uuid": "c1970d95-467a-440a-a2f1-a9dc986454d2"
   },
   "engines": {
-    "node": ">=14.19.1 <=1x.x",
+    "node": ">=14.19.1 <=16.x.x",
     "npm": "6.0.0"
   },
   "license": "MIT"
